@@ -11,5 +11,5 @@ function submitText() {
 }
 
 function storeValue(key, value) {
-	
+	window.sessionStorage.setItem( Date, value );
 }
